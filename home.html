@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device, initial-scale=1.0"></head>
+            <title> law corpus</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+            <script src="homie.js"></script>
+            <link rel="stylesheet" href="path/to/your-icon-library.css">
+            <script>
+                function scrollToSection() {
+                  var lowerSection = document.getElementById("lower-section");
+                  lowerSection.scrollIntoView({ behavior: "smooth"
+                 });
+                }
+              </script>
+
+<script>
+              // Get the top section element
+  const topSection = document.getElementById('topsection');
+
+
+  const scrollThreshold = 200; // Adjust the value as needed
+
+// Add a scroll event listener
+  window.addEventListener('scroll', function() {
+  // Calculate the scroll position
+  const scrollPosition = window.scrollY || window.pageYOffset;
+
+   // Hide the element if the scroll threshold is reached
+   if (scrollPosition >= scrollThreshold) {
+    topSection.style.display = 'none';
+  } else {
+    topSection.style.display = 'block';
+  }
+});
+
+</script>
+<script>
+
+function search() {
+    // Get the search input value
+    var searchInput = document.getElementById('searchInput').value;
+    
+    // Convert the search input to lowercase for case-insensitive comparison
+    var searchTerm = searchInput.toLowerCase();
+    
+    // Define the available HTML page titles and their corresponding URLs
+    var pages = [
+      { title: 'ai chatbot', url: 'page2.html' },
+      { title: 'legal class', url: 'legalclass.html' },
+      { title: 'legal info', url: 'legalinfo.html' }
+      // Add more pages as needed
+    ];
+    
+    // Search for a matching page title
+    var matchedPage = pages.find(function(page) {
+      return page.title.toLowerCase() === searchTerm;
+    });
+    
+    // If a matching page is found, redirect the user to the corresponding URL
+    if (matchedPage) {
+      window.location.href = matchedPage.url;
+    } else {
+      alert('No matching page found.');
+    }
+  }
+</script>
+    </head>
+       
+
+    <body style="background: #BFA0A0">
+       <div class="topsection" id="topsection">
+        <form class="chat-search"action="/search" method="GET">
+            <input type="text"  id="searchInput" placeholder="Search...">
+            <button type="submit"><i class="fas fa-search search-icon"></i></button> 
+          </form>
+
+          <button class="button" onclick="scrollToSection()">About us</button>
+          
+      
+
+            <div class="man" >
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram original-color-icon"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin original-color-icon"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=1234567890"><i class="fab fa-whatsapp original-color-icon"></i></a>
+            </div>
+
+        </div>
+            <div class="woman">
+            
+                <h1><span class="multiText"></span></h1>
+            
+                <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+               
+                    <script> 
+                    var typingEffect = new Typed(".multiText",{ 
+                        strings:["Try out our Law Corpus Chatbot"], 
+                        loop: true,
+                        typeSpeed:80,
+                        backSpeed: 80,
+                        backDelay:1500
+            
+            }) 
+                            
+                      </script>
+        
+                       
+            </div>
+
+<section class="white-segment">    
+
+
+<button class="btn"  onclick="window.location.href='page2.html'"><i class="fas fa-robot"></i>Chatbot</button>
+<h2><span class="multiText1"></span></h2>
+              <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+       
+            <script> 
+            var typingEffect = new Typed(".multiText1",{ 
+                strings:["Other services"], 
+                loop: true,
+                typeSpeed:40,
+                backSpeed: 100,
+                backDelay:1000
+    
+    }) 
+                    
+              </script>
+<button class="btn1"  onclick="window.location.href='legalinfo.html'"><i class="fas fa-info-circle"></i> Legal Info</button>
+<button class="btn2" s onclick="window.location.href='legalclass.html'"> <i class="fas fa-balance-scale"></i></i></i> My Legal Cases</button>
+
+</section>
+
+<div class="lower-section" id="lower-section">
+    <h1>About Us</h1>
+  
+    <p class="about-us">At legal codebreakers, we specialize in leveraging the power of artificial intelligence and natural language processing to revolutionize the legal industry. Our mission is to provide innovative solutions that streamline legal workflows and enhance access to legal information.</p>
+    <p class="about-us">With a deep understanding of the challenges faced by legal professionals, we have developed advanced AI generative skills that enable us to analyze and process vast law corpuses efficiently. Our cutting-edge technology empowers legal practitioners by automating time-consuming tasks and delivering actionable insights.</p>
+    <p class="about-us">Since our establishment in [year], we have been at the forefront of legal AI research and development. Our team of skilled data scientists, engineers, and legal experts work collaboratively to create state-of-the-art models and algorithms. Through continuous innovation, we strive to reshape the legal landscape and unlock new possibilities.</p>
+    <p class="about-us">At legal code breakers, we are committed to upholding the highest standards of accuracy, reliability, and data privacy. Our AI models are trained on comprehensive law corpuses, ensuring the extraction of relevant legal knowledge and the generation of intelligent, contextually appropriate outputs.</p>
+    <p class="about-us">We understand the importance of maintaining the human touch in the legal profession. Our AI technologies are designed to complement and assist legal professionals, augmenting their capabilities and allowing them to focus on higher-value tasks. We believe that the synergy between human expertise and AI-driven tools can lead to unprecedented advancements in the legal field.</p>
+    <p class="about-us">As we continue to push the boundaries of AI in the legal domain, we remain dedicated to fostering ethical practices and responsible AI deployment. Transparency, fairness, and accountability are embedded in our development processes to ensure that our AI solutions are unbiased and uphold the principles of justice.</p>
+    <p class="about-us">Thank you for choosing legal codebreakers. We are excited to partner with you on your legal journey, providing cutting-edge AI tools that empower legal professionals, optimize workflows, and unlock the full potential of your legal practice.</p>
+    
+  </div>
+            <section class="hidden" >
+                
+                  </div>
+            </section>
+
+            <section class="hidden">
+                
+            </section>
+
+            
+
+    </body>
+   
+</html> 

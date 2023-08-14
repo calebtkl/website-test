@@ -1,0 +1,322 @@
+
+
+.topsection {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s ease; /* Smooth transition effect */
+  }
+
+
+  .fa-instagram {
+    color:grey;
+  }
+  .fa-linkedin{
+    color: grey;
+  }
+  .fa-whatsapp{
+    color:grey
+  }
+
+
+h1{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white; 
+    
+    font-size: 70px;
+    height: 25vh; /* Adjust the value to set the desired height of the text */
+    margin-top: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+    
+}
+
+h2{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey; 
+    margin-top: 20px; /* Adjust the value as needed */
+    margin-bottom: 1100px;
+    font-size: 45px;
+    height: 90vh; /* Adjust the value to set the desired height of the text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    h4{ 
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:grey; 
+        margin-bottom: 100px;
+        font-size: 45px;
+        height: 50vh; /* Adjust the value to set the desired height of the text */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    
+
+    
+}
+.multiText{
+   
+    color:white;
+    
+    
+}
+
+a{
+    color:white;
+}
+
+.man{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px; /* Adjust the width of the right div as needed */
+    height: 100%; /* Set the height to match the container height */
+    color: white;
+    font-size: 40px;
+ 
+    margin: 25px 10px;
+}
+
+
+.hidden{
+    opacity: 1;
+    transition: all 1s;
+    color: white; /* Set the text color to make it readable */
+    font-size: 24px; /* Adjust the font size as needed */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+   
+
+}
+
+.show{
+    opacity: 1;
+    color: black;
+    
+}
+
+.woman{
+    
+    
+    display:FLEX ;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+section{
+
+    margin-top: 800px;
+    height:150vh;
+    display:grid;
+    place-items: center;
+    align-content:center;
+
+    color:#BFA0A0;
+    
+}
+
+.man{
+    
+    transition-property:transform;
+    transition-duration:0.3s;
+    transition-timing-function: ease;
+    transition-delay:0s;
+
+}
+
+.btn{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey; 
+    margin-top: 200px; /* Adjust the value as needed */
+    font-size: 2rem;
+    
+    display: inline-block;
+      padding: 30px 40px;
+      background-color: #EFE2E2; /* Replace with your desired color */
+      border: none;
+      text-decoration: none;
+      
+      font-weight: normal;
+      border-radius: 4px;
+   
+    border-radius:5px;
+    transition-property: transform;
+    transition-duration:0.3s;
+    transition-timing-function: ease;
+    transition-delay:0 ;
+}
+
+.btn i {
+    margin-right: 30px; /* Adjust this value to set the desired space between the icon and the text */
+  }
+
+
+.btn:hover{
+    transform:translateY(-10px);
+}
+
+.btn1{
+    margin-top: -2500px; /* Adjust the value as needed */
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey; 
+    padding: 30px 40px;
+    background-color: #EFE2E2; /* Replace with your desired color */
+    border: none;
+    text-decoration: none;
+ 
+    font-weight: normal;
+    border-radius: 4px;
+   
+    border-radius:5px;
+    transition-property: transform;
+    transition-duration:0.3s;
+    transition-timing-function: ease;
+    transition-delay:0 ;
+}
+
+.btn1 i {
+    margin-right: 30px; /* Adjust this value to set the desired space between the icon and the text */
+  }
+
+.btn1:hover{
+    transform:translateY(-10px);
+}
+
+.btn2{
+    margin-top: -2000px; /* Adjust the value as needed */
+    font-size: 2rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey; 
+    padding: 30px 40px;
+      background-color: #EFE2E2; /* Replace with your desired color */
+      border: none;
+      text-decoration: none;
+     
+      font-weight: normal;
+      border-radius: 4px;
+   
+    border-radius:5px;
+    transition-property: transform;
+    transition-duration:0.3s;
+    transition-timing-function: ease;
+    transition-delay:0 ;
+}
+
+.btn2 i {
+    margin-right: 30px; /* Adjust this value to set the desired space between the icon and the text */
+  }
+
+
+
+
+.btn2:hover{
+    transform:translateY(-10px);
+}
+
+ /* Styles for the chat search bar */
+ .chat-search {
+    display: flex;
+    align-items: center;
+    width: 300px;
+      margin: 0 auto;
+      padding: 10px;
+    margin-left: 50px; /* Adjust the margin-left value as desired */
+    border-radius: 20px;
+  }
+
+  .chat-search input[type="text"] {
+    width: 100%;
+      padding: 8px;
+      font-size: 16px;
+      border:none;
+      background-color: white;
+  }
+
+  .chat-search input[type="submit"] {
+    /* Your submit button styles here */
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .search-icon {
+    margin-right: 5px;
+    padding:10px;
+   border:none;
+  }
+
+
+    .white-segment {
+        background-color: white;
+        
+     
+        box-shadow: 0 0 0 10px white; /* Use the background color of your page */
+        
+        
+  }
+
+  .button {
+    color: grey;
+    font-size: 30px;
+    position: fixed;
+    
+    top: 2%;
+    right: 20%;
+    background-color:transparent;
+    border: 1px solid transparent;
+    padding: 10px;
+  }
+
+  .button:hover {
+  background-color: transparent;
+  color: black;
+  }
+  
+  
+  .lower-section {
+ 
+    position: relative;
+    height: 500px;
+    background-color:transparent;
+  }
+  .about-us {
+    font-size: 27px;
+    color: white;
+    display: flex;
+    
+      align-items: center;
+      justify-content: center;
+      height: vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+   
+
+  }
+
+  .lower-section p {
+    margin-bottom: 20px; /* Add margin bottom for paragraph spacing */
+  }
+
+  @media screen and (max-width: 600px) {
+    /* CSS styles to prevent distortion */
+    body {
+      overflow-x: hidden; /* Prevent horizontal scrollbar */
+    }
+    .container {
+      max-width: 100%; /* Ensure container doesn't exceed viewport width */
+    }
+    /* Adjust other relevant styles as needed */
+  }
